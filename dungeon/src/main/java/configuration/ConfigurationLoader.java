@@ -47,7 +47,7 @@ public class ConfigurationLoader {
     public void scanMapConfigurationFiles() {
 
         //读取配置文件信息
-        InputStream inputStream = loader.getResourceAsStream("../maps/GameInfo.json");
+        InputStream inputStream = loader.getResourceAsStream("maps/GameInfo.json");
         String config = readInputAsString(inputStream);
         JSONArray jsonArray = JSONObject.parseObject(config).getJSONArray("floors");
         List<String> list = jsonArray.toJavaList(String.class);
