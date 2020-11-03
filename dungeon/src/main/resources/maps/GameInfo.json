@@ -1,0 +1,12 @@
+{
+  "floors": [
+    {"floor0" : "maps/floors/floor0.json"},
+    {"floor1" : "maps/floors/floor1.json"},
+    {"floor2" : "maps/floors/floor2.json"},
+    {"floor3" : "maps/floors/floor3.json"},
+    {"floor4" : "maps/floors/floor4.json"},
+    {"floor5" : "maps/floors/floor5.json"},
+    {"floor6" : "maps/floors/floor6.json"}
+  ],
+  "hero": "maps/hero/hero.json"
+}

@@ -1,0 +1,28 @@
+{
+  "background": {
+    "map_resource": "image/background1.png"
+  },
+  "wall": {
+    "location": ["(1,1)-(1,13)","(1,1)-(13,1)","(13,1)-(13,13)","(1,13)-(13,13)","(2,3)-(11,3)","(11,3)-(11,8)",
+      "(5,5)-(5,12)","(7,4)-(7,6)","(7,8)-(10,8)","(8,6)","(9,6)","(12,10)","(8,10)-(10,10)","(6,10)","(2,5)","(4,5)","(2,8)","(4,8)","(9,11)","(9,12)"
+    ],
+    "map_resource": "image/wall1.png"
+  },
+  "hero": {
+    "location":["(7,11)"]
+  },
+  "stairway": {
+    "up": {
+      "location": [
+        "(7,12)"
+      ],
+      "map_resource": "image/stairway/stairway_up.png"
+    },
+    "down": {
+      "location": [
+        "(2,2)"
+      ],
+      "map_resource": "image/stairway/stairway_down.png"
+    }
+  }
+}

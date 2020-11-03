@@ -1,0 +1,20 @@
+{
+  "blood": "100",
+  "defense_physical": "10",
+  "defense_magic": "10",
+  "attack": "10",
+  "location": ["(7,6)"],
+  "resource": {
+    "left": "image/hero/left.png",
+    "right": "image/hero/right.png",
+    "down": "image/hero/down.png",
+    "up": "image/hero/up.png"
+  },
+  "tools": {
+    "keys": {
+      "yellow": 3,
+      "blue": 0,
+      "red": 0
+    }
+  }
+}
