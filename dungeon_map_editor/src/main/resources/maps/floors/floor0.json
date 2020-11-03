@@ -1,0 +1,18 @@
+{
+  "background": {
+    "map_resource": "image/background1.png"
+  },
+  "wall": {
+    "location": ["(1,1)-(1,13)","(1,1)-(13,1)","(13,1)-(13,13)","(1,13)-(13,13)"],
+    "map_resource": "image/wall1.png"
+  },
+  "hero": {
+    "location": ["(7,6)"]
+  },
+  "stairway": {
+    "down": {
+      "location": ["(2,2)"],
+      "map_resource": "image/stairway/stairway_down.png"
+    }
+  }
+}
